@@ -68,7 +68,6 @@ namespace Ecommerce.Api.Products.ProductsServiceTest
             Assert.Null(product.products);
 
             //Assert.NotEmpty(product.errorMessage);
-
         }
 
         private void CreateProducts(ProductsDbContext context)
