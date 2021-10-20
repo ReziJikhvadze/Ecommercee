@@ -66,6 +66,7 @@ namespace Ecommerce.Api.Products.ProductsServiceTest
             var product = await productServiceProvider.GetProduct(-1);
             Assert.True(product.isSuccess);
             Assert.Null(product.products);
+
             //Assert.NotEmpty(product.errorMessage);
 
         }
